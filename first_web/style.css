@@ -1,0 +1,58 @@
+body{
+    background-image: url('/background.jpg');
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+.form{
+    margin-top : 12%;
+    margin-left: 37%;
+    text-align: center;
+    background-color: rgb(67, 71, 73);
+    height : 400px;
+    width: 300px;
+    border: 3px solid white;
+    border-radius : 10px;
+}
+#heading{
+    padding : 30%;
+    color : red;
+    font-family: 'Courier New', Courier, monospace;
+}
+#logo{
+    background-color:transparent;
+    height: 150px;
+}
+#username{
+    line-height: 0px;
+    margin-left : 60px;
+    text-align:left;
+    color:gray;
+}
+#password{
+    line-height: 0px;
+    margin-left : 60px;
+    text-align : left;
+    color: gray;
+}
+#box1{
+    border-radius: 10px;
+    border:2px solid black;
+}
+#box2{
+    border-radius: 10px;
+    border:2px solid black;
+}
+#button{
+     background-color: rgb(97, 200, 97);
+     color : rgb(65, 65, 228);
+     width: 80px;
+     height: 30px;
+     border-radius : 20px;
+     border:2px solid rgb(193, 240, 22);
+}
+#button:hover{
+    background-color: yellow;
+}
+#button:active{
+    background-color: blue;
+}
